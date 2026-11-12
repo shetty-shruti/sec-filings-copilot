@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql+psycopg://copilot:copilot@localhost:5432/copilot"
 
-    langfuse_host: str = "http://localhost:3000"
+    langfuse_base_url: str = "http://localhost:3000"
     langfuse_public_key: str = ""
     langfuse_secret_key: str = ""
 
