@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Data and eval outputs
+data/raw/*
+!data/raw/.gitkeep
+eval/runs/*
+!eval/runs/.gitkeep
+
+# Go
+ingestion-service/bin/
+
+# Terraform
+infra/terraform/.terraform/
+*.tfstate
+*.tfstate.*
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
